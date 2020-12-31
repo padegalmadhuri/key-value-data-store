@@ -33,11 +33,11 @@ dictionary.delete("A");
 ```
 
 # Constraints
-####1. With in timeout Read and Delete functions will available,after timeout Read and Delete will not applicable for the particular Key.
-####2. The duplication of key is not possible.
-####3. The size of the key will not exceed to 32chars.
-####4. The size of the value is not exceed to 16KB.
-####5. Multiple Threading is available
+#### 1. With in timeout Read and Delete functions will available,after timeout Read and Delete will not applicable for the particular Key.
+#### 2. The duplication of key is not possible.
+#### 3. The size of the key will not exceed to 32chars.
+#### 4. The size of the value is not exceed to 16KB.
+#### 5. Multiple Threading is available
 
 
 Go through the implementation file, to know the data store work flow. 
