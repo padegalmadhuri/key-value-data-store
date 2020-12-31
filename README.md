@@ -1,11 +1,13 @@
-#About the Key-value data store file
+# About the Key-value data store file
 
 This is a file which can be exposed as a library that supports the basic CRD(create, read, write) operations. Data store is meant to local storage for one single process on single laptop.
 
 
 # Importing
   Import the file dictionary
- `import dictionary `
+ ```
+ import dictionary 
+ ```
 
 # Available Functions
 
@@ -31,11 +33,11 @@ dictionary.delete("A");
 ```
 
 # Constraints
-#### With in timeout Read and Delete functions will available,after timeout Read and Delete will not applicable for the particular Key.
-#### The duplication of key is not possible.
-#### The size of the key will not exceed to 32chars.
-#### The size of the value is not exceed to 16KB.
-#### Multiple Threading is available
+####1. With in timeout Read and Delete functions will available,after timeout Read and Delete will not applicable for the particular Key.
+####2. The duplication of key is not possible.
+####3. The size of the key will not exceed to 32chars.
+####4. The size of the value is not exceed to 16KB.
+####5. Multiple Threading is available
 
 
 Go through the implementation file, to know the data store work flow. 
