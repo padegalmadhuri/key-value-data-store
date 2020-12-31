@@ -32,6 +32,11 @@ It will delete the value by taking key.
 dictionary.delete("A");
 ```
 
+#### store
+```
+print(dictionary.d)
+```
+
 # Constraints
 #### 1. With in timeout Read and Delete functions will available,after timeout Read and Delete will not applicable for the particular Key.
 #### 2. The duplication of key is not possible.
